@@ -1,22 +1,12 @@
-// import logo from './logo.svg';
-// import './App.css';
-import React from "react";
+import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import About from "./pages/About";
-import Home from "./pages/Home";
 
-// function App() {
 const App = () => {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/about" element={<About/>} />
-        <Route path="*" element={<Home/>} />
-      </Routes>
-    </BrowserRouter>
-   
-  );
-}
+    return (
+        <div>
+            <h1>Coupe du Monde 2022</h1>
+        </div>
+    );
+};
 
 export default App;
