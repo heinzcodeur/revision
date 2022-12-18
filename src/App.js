@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 const App = () => {
     return (
         <div>
-            <h1>Coupe du Monde 2022</h1>
+            <h1>Coupe du Monde 2022 - Victoire France</h1>
         </div>
     );
 };
