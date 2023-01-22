@@ -6,7 +6,7 @@ import Navigation from "./Navigation";
 const Countries = () => {
 
     const [data, setData] = useState([])
-    const [rangeValue, setRangeValue] = useState(36)
+    const [rangeValue, setRangeValue] = useState(45)
     // const [titi, setTiti] = useState('toti')
     const [selectedRadio, setSelectedRadio] = useState("")
     const radios = ["Africa", "America", "Asia", "Europe", "Oceania"]
